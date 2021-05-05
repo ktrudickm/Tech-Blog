@@ -1,4 +1,4 @@
-header, .project:not(:last-child) {
+header, .post:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
@@ -21,4 +21,20 @@ header, .project:not(:last-child) {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+
+.comments {
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top:10px
+}
+
+.new-comment {
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top:10px
+}
+
+.form-input {
+  width: 50%;
 }

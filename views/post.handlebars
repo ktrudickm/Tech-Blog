@@ -4,7 +4,7 @@
   <p>{{body}}</p>
   <p>Created by {{user.name}} on {{format_date createdAt}}</p>
 
-  <div class="col-md-6">
+  <div class="comments col-md-12">
     <h4>Comments:</h3>
     {{#each comments}}
     <div>
@@ -14,7 +14,7 @@
   </div>
 
 
-  <div class="text-center col-md-6">
+  <div class="new-comment text-center col-md-12">
     <h5>Comment on this Post:</h5>
 
     <form class="form new-comment-form">
@@ -30,5 +30,6 @@
 
 </div>
 
-
-<script src="./js/comment.js"></script>
+{{#if logged_in}}
+<script src="/js/comment.js"></script>
+{{/if}}
