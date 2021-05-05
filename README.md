@@ -59,6 +59,16 @@ This application uses the [express-handlebars](https://www.npmjs.com/package/exp
 
 Also needed was a [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
+## Development Process
+
+The development process involved many steps. After the initial set-up and installation of all necessary packages, we started by creating the database and seeding all the data for the ssers, posts and comments after creating the models for each and their respective relationships in the models folder.
+
+Next, we created the routes for handling the back-end of the app. These files take care of the different get, post, puts, and deletes for each post, user, and comment. Then, we created the views to actually display the necessary content.
+
+### Challenges
+
+The challenges faced in the project laid in the connecting between all files to have everything work harmoniously together. In terms of future development, I would like to clean up the actual look of the blog itself to give it a nicer layout and structure that is more visually appealing.
+
 ## Credits
 
 * MySQL2 - [MySQL2](https://www.npmjs.com/package/mysql2)
