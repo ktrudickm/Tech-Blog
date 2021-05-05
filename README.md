@@ -47,12 +47,6 @@ WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site 
 ```
 
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif)
-
 ## Set-Up
 
 This application uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for the Views, the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for the Models, and utilizes an Express.js API for the Controllers.
