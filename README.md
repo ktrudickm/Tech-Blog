@@ -93,4 +93,4 @@ The challenges faced in the project laid in the connecting between all files to 
 
 GitHub Repository - [Tech Blog App Repository](https://github.com/ktrudickm/Tech-Blog "Tech Blog App")
 
-Heroku - [Heroku Tech Blog]()
+Heroku - [Heroku Tech Blog](https://mvc-tech-blog-application.herokuapp.com/)
