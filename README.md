@@ -59,3 +59,28 @@ This application uses the [express-handlebars](https://www.npmjs.com/package/exp
 
 Also needed was a [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
 
+## Credits
+
+* MySQL2 - [MySQL2](https://www.npmjs.com/package/mysql2)
+
+* Sequelize - [Sequelize](https://www.npmjs.com/package/sequelize)
+
+* Connect Session Sequelize - [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
+
+* DotEnv - [dotenv](https://www.npmjs.com/package/dotenv)
+
+* Inquirer - [InquirerJs](https://www.npmjs.com/package/inquirer/v/0.2.3) NPM package to interact with the user via the command-line.
+
+* Express - [EspressJs](https://www.npmjs.com/package/express)
+
+* Express Session - [express-session](https://www.npmjs.com/package/express-session)
+
+* Express-Handlebars - [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
+
+* Bycrypt - [bcrypt package](https://www.npmjs.com/package/bcrypt)
+
+## Links
+
+GitHub Repository - [Tech Blog App Repository](https://github.com/ktrudickm/Tech-Blog "Tech Blog App")
+
+Heroku - [Heroku Tech Blog]()
